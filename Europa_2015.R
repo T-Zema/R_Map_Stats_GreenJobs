@@ -1,6 +1,6 @@
 library("sp")
 library("rgdal")
-# Europa 2006 -  kiedy Adam Sulich rządził takimi danymi w swoejej Tabeli Z1
+# Europa 2015 -  kiedy Adam Sulich rządził takimi danymi w swoejej Tabeli Z1
 print ("Wyniki procedury Hellwiga - koloryzowane")
 
 europe.map <- readOGR(dsn=".\\Pliki_shapefile", "test_final_no1")
@@ -16,11 +16,11 @@ print ("grupa 1")
 kolor1 = "springgreen3"
 
 plot(europe.map[europe.map$CC == "GM", ], col = kolor1, add = TRUE) # Germany
-plot(europe.map[europe.map$CC == "FR", ], col = kolor2, add = TRUE) # Fracusę
-plot(europe.map[europe.map$CC == "SP", ], col = kolor2, add = TRUE) # Spain
-plot(europe.map[europe.map$CC == "IT", ], col = kolor2, add = TRUE) # Italy
-plot(europe.map[europe.map$CC == "FI", ], col = kolor3, add = TRUE) # Finland
-plot(europe.map[europe.map$CC == "SW", ], col = kolor3, add = TRUE) # slweden
+plot(europe.map[europe.map$CC == "FR", ], col = kolor1, add = TRUE) # Fracusę
+plot(europe.map[europe.map$CC == "SP", ], col = kolor1, add = TRUE) # Spain
+plot(europe.map[europe.map$CC == "IT", ], col = kolor1, add = TRUE) # Italy
+plot(europe.map[europe.map$CC == "FI", ], col = kolor1, add = TRUE) # Finland
+plot(europe.map[europe.map$CC == "SW", ], col = kolor1, add = TRUE) # slweden
 plot(europe.map[europe.map$CC == "PL", ], col = kolor1, add = TRUE) # Cebularki
 
 
@@ -28,13 +28,13 @@ plot(europe.map[europe.map$CC == "PL", ], col = kolor1, add = TRUE) # Cebularki
 print ("grupa 2")
 kolor2 = "dodgerblue2"
 
-plot(europe.map[europe.map$CC == "PO", ], col = kolor1, add = TRUE) # Portugal
-plot(europe.map[europe.map$CC == "LO", ], col = kolor4, add = TRUE) # slovakia
-plot(europe.map[europe.map$CC == "HU", ], col = kolor1, add = TRUE) # Hungary
+plot(europe.map[europe.map$CC == "PO", ], col = kolor2, add = TRUE) # Portugal
+plot(europe.map[europe.map$CC == "LO", ], col = kolor2, add = TRUE) # slovakia
+plot(europe.map[europe.map$CC == "HU", ], col = kolor2, add = TRUE) # Hungary
 plot(europe.map[europe.map$CC == "AU", ], col = kolor2, add = TRUE) # Austria
-plot(europe.map[europe.map$CC == "EZ", ], col = kolor1, add = TRUE) # CZechy
-plot(europe.map[europe.map$CC == "BU", ], col = kolor3, add = TRUE) # Bulgary
-plot(europe.map[europe.map$CC == "EN", ], col = kolor3, add = TRUE) # estonia 
+plot(europe.map[europe.map$CC == "EZ", ], col = kolor2, add = TRUE) # CZechy
+plot(europe.map[europe.map$CC == "BU", ], col = kolor2, add = TRUE) # Bulgary
+plot(europe.map[europe.map$CC == "EN", ], col = kolor2, add = TRUE) # estonia 
 
 
 
@@ -44,13 +44,13 @@ plot(europe.map[europe.map$CC == "EN", ], col = kolor3, add = TRUE) # estonia
 print ("grupa 3")
 kolor3 = "darkorange2"
 
-plot(europe.map[europe.map$CC == "LG", ], col = kolor4, add = TRUE) # Lativia
+plot(europe.map[europe.map$CC == "LG", ], col = kolor3, add = TRUE) # Lativia
 plot(europe.map[europe.map$CC == "RO", ], col = kolor3, add = TRUE) # Romania
 plot(europe.map[europe.map$CC == "LH", ], col = kolor3, add = TRUE) # Lithuania
-plot(europe.map[europe.map$CC == "HR", ], col = kolor2, add = TRUE) # Croatia
-plot(europe.map[europe.map$CC == "UK", ], col = kolor2, add = TRUE) # Earl grey
+plot(europe.map[europe.map$CC == "HR", ], col = kolor3, add = TRUE) # Croatia
+plot(europe.map[europe.map$CC == "UK", ], col = kolor3, add = TRUE) # Earl grey
 plot(europe.map[europe.map$CC == "SI", ], col = kolor3, add = TRUE) # slovenia
-plot(europe.map[europe.map$CC == "GR", ], col = kolor4, add = TRUE) # Greece
+plot(europe.map[europe.map$CC == "GR", ], col = kolor3, add = TRUE) # Greece
 
 
 
@@ -59,14 +59,15 @@ plot(europe.map[europe.map$CC == "GR", ], col = kolor4, add = TRUE) # Greece
 print ("grupa 4")
 kolor4 = "purple"
 
-plot(europe.map[europe.map$CC == "DA", ], col = kolor1, add = TRUE) # Denmark
+plot(europe.map[europe.map$CC == "DA", ], col = kolor4, add = TRUE) # Denmark
 plot(europe.map[europe.map$CC == "NL", ], col = kolor4, add = TRUE) # NetherLands
 plot(europe.map[europe.map$CC == "BE", ], col = kolor4, add = TRUE) # Belgium
 plot(europe.map[europe.map$CC == "EI", ], col = kolor4, add = TRUE) # Irleand
-plot(europe.map[europe.map$CC == "CY", ], col = kolor2, add = TRUE) # Cyper
-plot(europe.map[europe.map$CC == "LU", ], col = kolor1, add = TRUE) # Luxemburg
+plot(europe.map[europe.map$CC == "CY", ], col = kolor4, add = TRUE) # Cyper
+plot(europe.map[europe.map$CC == "LU", ], col = kolor4, add = TRUE) # Luxemburg
 plot(europe.map[europe.map$CC == "MT", ], col = kolor4, add = TRUE) # malta
 
+print("Famous watercolorist is still painting, please wait...")
 
 
 

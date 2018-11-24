@@ -14,6 +14,7 @@ plot(europe.map)
 
 print ("grupa 1")
 kolor1 = "springgreen3"
+
 plot(europe.map[europe.map$CC == "LU", ], col = kolor1, add = TRUE)
 plot(europe.map[europe.map$CC == "HU", ], col = kolor1, add = TRUE)
 plot(europe.map[europe.map$CC == "EZ", ], col = kolor1, add = TRUE) # CZechy
@@ -25,6 +26,7 @@ plot(europe.map[europe.map$CC == "DA", ], col = kolor1, add = TRUE) # Denmark
 
 print ("grupa 2")
 kolor2 = "dodgerblue2"
+
 plot(europe.map[europe.map$CC == "CY", ], col = kolor2, add = TRUE) # Cyper
 plot(europe.map[europe.map$CC == "FR", ], col = kolor2, add = TRUE)
 plot(europe.map[europe.map$CC == "UK", ], col = kolor2, add = TRUE)
@@ -43,6 +45,7 @@ plot(europe.map[europe.map$CC == "FI", ], col = kolor3, add = TRUE)
 plot(europe.map[europe.map$CC == "EN", ], col = kolor3, add = TRUE) # estonia 
 plot(europe.map[europe.map$CC == "LH", ], col = kolor3, add = TRUE) # Lithuania
 plot(europe.map[europe.map$CC == "RO", ], col = kolor3, add = TRUE)
+
 print ("grupa 4")
 kolor4 = "purple"
 
@@ -54,3 +57,4 @@ plot(europe.map[europe.map$CC == "NL", ], col = kolor4, add = TRUE)
 plot(europe.map[europe.map$CC == "EI", ], col = kolor4, add = TRUE) # irlandia
 plot(europe.map[europe.map$CC == "GR", ], col = kolor4, add = TRUE)
 
+print("Famous watercolorist is still painting, please wait...")
