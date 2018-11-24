@@ -1,3 +1,13 @@
+# Before run script libraries are needed like sp and rgdal
+# to install type in Console below:
+
+
+# install.packages("sp")
+# install.packages("rgdal")
+
+# "sp"  and" "rgdal" <- it's a name of package
+
+
 library("sp")
 library("rgdal")
 # Europa 2015 -  kiedy Adam Sulich rządził takimi danymi w swoejej Tabeli Z1
@@ -13,8 +23,10 @@ print (unique(europe.map$CC))
 plot(europe.map)
 
 print ("grupa 1")
+#  if you want to change color of group change string here in kolor1 variable
 kolor1 = "springgreen3"
-
+# each line declares a country
+# col declares color
 plot(europe.map[europe.map$CC == "GM", ], col = kolor1, add = TRUE) # Germany
 plot(europe.map[europe.map$CC == "FR", ], col = kolor1, add = TRUE) # Fracusę
 plot(europe.map[europe.map$CC == "SP", ], col = kolor1, add = TRUE) # Spain
