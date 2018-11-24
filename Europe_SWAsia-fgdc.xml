@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin/>
+        <pubdate>20080308</pubdate>
+        <title>Detailed World Polygons (LSIB) Europe and Southwest Asia, 2013</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace/>
+          <publish>United States. Department of State. Office of the Geographer. Humanitarian Information Unit</publish>
+        </pubinfo>
+        <onlink>http://purl.stanford.edu/yf665vp7551</onlink>
+        <lworkcit>
+          <citeinfo>
+            <title>U.S. Department of State, Humanitarian Information Unit GIS Maps and Data</title>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This polygon shapefile contains the boundaries of countries in Europe and southwest Asia. This layer, created by the Office of the Geographer, combines two data sets: Large Scale International Boundary Lines (LSIB) and World Vector Shorelines (LSIB-WVS). The lines reflect U.S. government (USG) policy and thus not necessarily de facto control. The 1:250,000 scale WVS coastline data from the National Geospatial-Intelligence Agency (NGA) is generally shifted by several hundred meters to over a km. The LSIB is in WGS84 datum and is generally accurate to within a couple hundred meters or better. The boundary research and “recovery” of the delineation of the line has been done over past decades by geographers at State and colleagues from other USG agencies and the UK. It is based on modern imagery, elevation data, relevant maps, treaties, international arbitration and court rulings, data from national mapping agencies and boundary commissions if available, and other sources. </abstract>
+      <purpose>The mission of the Humanitarian Information Unit (HIU) is to serve as a U.S. Government interagency center to identify, collect, analyze, and disseminate all-source information critical to U.S. Government decision-makers and partners in preparation for and response to humanitarian emergencies worldwide, and to promote innovative technologies and best practices for humanitarian information management.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20080308</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-31.267111</westbc>
+        <eastbc>63.333201</eastbc>
+        <northbc>80.824554</northbc>
+        <southbc>12.101194</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>lcsh</themekt>
+        <themekey>Countries</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>boundaries</themekey>
+      </theme>
+      <place>
+        <placekt>geonames</placekt>
+        <placekey>Europe</placekey>
+        <placekey>Yemen</placekey>
+        <placekey>Saudi Arabia</placekey>
+        <placekey>Azerbaijan</placekey>
+        <placekey>Bahrain</placekey>
+        <placekey>Turkey</placekey>
+        <placekey>Syria</placekey>
+        <placekey>Jordan</placekey>
+        <placekey>Iraq</placekey>
+        <placekey>Iran</placekey>
+        <placekey>Oman</placekey>
+        <placekey>Israel</placekey>
+      </place>
+    </keywords>
+    <accconst>This item is in the public domain. There are no restrictions on access or use.</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Department of State, Office of the Geographer</cntorg>
+          <cntper>Humanitarian Information Unit</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>2025 E St., NW, Suite NE5-037</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20522</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(202) 634-0340</cntvoice>
+        <cntfax>(202) 634-0380</cntfax>
+        <cntemail>HIU_INFO@state.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Department of State, Office of the Geographer</cntorg>
+          <cntper>David Linthicum</cntper>
+        </cntorgp>
+        <cntvoice>(202) 647-7154</cntvoice>
+        <cntemail>LinthicumDH@state.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>U.S. Department of State, Office of the Geographer. (2013). Detailed World Polygons (LSIB) Europe and Southwest Asia, 2013. U.S. Department of State. Humanitarian Information Unit.  Available at: http://purl.stanford.edu/yf665vp7551.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1.4959</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>50786</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <eainfo>
+    <detailed xmlns="">
+      <enttyp>
+        <enttypl>Europe_SWAsia</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CC</attrlabl>
+        <attrdef>Two letter country code, also known as the Federal Information Processing Standard (FIPS) 10-4 standard, used by the U.S. Government for geographical data processing and reference.</attrdef>
+        <attrdefs>National Institute of Standards and Technology (NIST)</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>REGION</attrlabl>
+        <attrdef>Geographic region country is located in.</attrdef>
+        <attrdefs>U.S. Department of State, Office of the Geographer</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>iso_alpha2</attrlabl>
+        <attrdef>International Organization for Standardization (ISO) alpha-2 codes are the two-letter country codes defined by ISO 3166-1 of the ISO 3166 standard.</attrdef>
+        <attrdefs>International Organization for Standardization</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>iso_alpha3</attrlabl>
+        <attrdef>International Organization for Standardization (ISO) alpha-3 codes are the three-letter country codes defined by ISO 3166-1 of the ISO 3166 standard.</attrdef>
+        <attrdefs>International Organization for Standardization</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>iso_num</attrlabl>
+        <attrdef>International Organization for Standardization (ISO) numeric codes are the three digit numeric country codes defined by ISO 3166-1 of the ISO 3166 standard.</attrdef>
+        <attrdefs>International Organization for Standardization</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>tld</attrlabl>
+        <attrdef>Top Level Domain (TLD) is the highest level in the hierarchical Domain Name System of the Internet.</attrdef>
+        <attrdefs>Domain Name System</attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Stanford Geospatial Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>Branner Earth Sciences Library</address>
+          <address>Mitchell Building, 2nd Floor</address>
+          <address>397 Panama Mall</address>
+          <city>Stanford</city>
+          <state>California</state>
+          <postal>94305</postal>
+        </cntaddr>
+        <cntvoice>650-723-2746</cntvoice>
+        <cntemail>brannerlibrary@stanford.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20160714</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Department of State, Office of the Geographer</cntorg>
+          <cntper>Humanitarian Information Unit</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>2025 E St., NW, Suite NE5-037</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20522</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(202) 634-0340</cntvoice>
+        <cntfax>(202) 634-0380</cntfax>
+        <cntemail>HIU_INFO@state.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
