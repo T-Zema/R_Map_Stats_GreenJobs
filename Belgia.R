@@ -2,7 +2,7 @@ library("sp")
 library("rgdal")
 
 
-Belgia.map <- readOGR(dsn="C:\\Users\\zemat\\Documents\\Rrr", "BEL_adm2")
+Belgia.map <- readOGR(dsn=".\\Pliki_shapefile", "BEL_adm2")
 print ("dane poprawnie wpisane do klasy europe.map")
 class(Belgia.map)
 print(ncol(Belgia.map@data))

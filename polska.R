@@ -3,7 +3,7 @@ library("rgdal")
 
 print ("Transformation in progress")
 
-poland.map <- readOGR(dsn="C:\\Users\\zemat\\Documents\\Rrr", "województwa") #argumentami są nazwa folderu oraz nazwa pliku (nie podajemy rozszerzenia)
+poland.map <- readOGR(dsn=".\\Pliki_shapefile", "województwa") #argumentami są nazwa folderu oraz nazwa pliku (nie podajemy rozszerzenia)
 #poland.map <- readOGR(dsn=path.expand("~/Rrr", "wojewĂłdztwa")
 print ("dane poprawnie wpisane do klasy poland.map")
 

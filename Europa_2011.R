@@ -3,7 +3,7 @@ library("rgdal")
 # Europa 2006 -  kiedy Adam Sulich rządził takimi danymi w swoejej Tabeli Z1
 print ("Wyniki procedury Hellwiga - koloryzowane")
 
-europe.map <- readOGR(dsn="C:\\Users\\zemat\\Documents\\Rrr", "test_final_no1")
+europe.map <- readOGR(dsn=".\\Pliki_shapefile", "test_final_no1")
 print ("dane poprawnie wpisane do klasy europe.map")
 class(europe.map)
 
