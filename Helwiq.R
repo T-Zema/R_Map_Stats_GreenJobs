@@ -1,8 +1,7 @@
 # deklaracja biblioteki "sp"
 library("sp")
-library("RColorBrewer")
+
 # Czytanie pliku
-#df <- read.table(".\\Rysunek\\Doktorat_obliczenia_EU-28_2006.csv", header = TRUE)
 df <- read.csv(".\\Rysunek\\Doktorat_obliczenia_EU-28_2016.csv", header = TRUE)
 # zmienne pomocnicze
 lista <- 0:28
