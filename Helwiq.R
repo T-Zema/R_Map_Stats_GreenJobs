@@ -2,7 +2,7 @@
 library("sp")
 
 # Czytanie pliku
-df <- read.csv(".\\Rysunek\\Doktorat_obliczenia_EU-28_2016.csv", header = TRUE)
+df <- read.csv(".\\Rysunek\\Doktorat_obliczenia_EU-28_2011.csv", header = TRUE)
 # zmienne pomocnicze
 lista <- 0:28
 x <- c(0,df$zi)
@@ -13,7 +13,7 @@ Punkt1 = df$p1[1]
 Punkt2 = df$p2[1]
 
 # plotowanie
-plot(x, y, col=ifelse(x==0, "white", "blue"), xlab="wartość syntetycznego miernika ekorozowju", ylab="Pozycja w rankingu ", pch=19, xaxt="n", yaxt="n")
+plot(x, y, col=ifelse(x==0, "white", "blue"), xlab="Wartość syntetycznego miernika ekorozowju", ylab="Pozycja w rankingu ", pch=19, xaxt="n", yaxt="n")
 
 
 
