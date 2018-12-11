@@ -40,6 +40,6 @@ plot(poland.map[poland.map$nazwa == "zachodniopomorskie", ], col = kolor4, add =
 plot(poland.map[poland.map$nazwa  == "podlaskie", ], col = kolor4, add = TRUE)
 plot(poland.map[poland.map$nazwa  == "lubelskie", ], col = kolor4, add = TRUE)
 plot(poland.map[poland.map$nazwa  == "podkarpackie", ], col = kolor4, add = TRUE)
-plot(poland.map[poland.map$nazwa  == "pomorskie", ], xlim= c(1,10), col = kolor4, add = TRUE,)
+plot(poland.map[poland.map$nazwa  == "pomorskie", ], col = kolor4, add = TRUE)
 legend(123223.7,310000.6,  c("Grupa I",  "Grupa II",  "Grupa III",  "Grupa IV"),fill =c(kolor1,kolor2,kolor3,kolor4),bty = "n", title= "Legenda",cex = 0.75)
 print(summary(poland.map))
