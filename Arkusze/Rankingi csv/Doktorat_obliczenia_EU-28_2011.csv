@@ -1,0 +1,29 @@
+﻿metoda,Hellwiga,symbolh,zi,standaryzacja,"gi""",unitaryzacja,si,sr,od,p1,p2
+1,Polska,PL,0.61,Niemcy,1,Słowenia,1,0.32,0.158899572,0.16,0.48
+2,Hiszpania,ES,0.56,Polska,0.877520567,Czechy,0.867304555,0.415160437,0.28355672,0.13,0.70
+3,Wielka Brytania,GB,0.52,Francja,0.84604079,Niemcy,0.756976507,0.491737424,0.240615176,0.25,0.73
+4,Słowacja,SK,0.5,Wielka Brytania,0.732488122,Szwecja,0.725255373,NA,NA,NA,NA
+5,Rumunia,RO,0.48,Słowenia,0.698715124,Polska,0.676830484,NA,NA,NA,NA
+6,Czechy,CZ,0.46,Hiszpania,0.692913236,Włochy,0.675576178,NA,NA,NA,NA
+7,Włochy,IT,0.39,Czechy,0.690810731,Hiszpania,0.673471791,NA,NA,NA,NA
+8,Łotwa,LV,0.38,Włochy,0.592513928,Finlandia,0.644900266,NA,NA,NA,NA
+9,Finlandia,FI,0.37,Austria,0.570574518,Austria,0.63675853,NA,NA,NA,NA
+10,Szwecja,SE,0.37,Szwecja,0.526871613,Holandia,0.626458646,NA,NA,NA,NA
+11,Portugalia,PT,0.37,Holandia,0.525094794,Wielka Brytania,0.610892462,NA,NA,NA,NA
+12,Holandia,NL,0.37,Węgry,0.515256013,Węgry,0.603771862,NA,NA,NA,NA
+13,Grecja,GR,0.36,Finlandia,0.50853394,Francja,0.586257513,NA,NA,NA,NA
+14,Słowenia,SI,0.35,Słowacja,0.467436534,Słowacja,0.559711903,NA,NA,NA,NA
+15,Belgia,BE,0.33,Dania,0.344980149,Chorwacja,0.525010848,NA,NA,NA,NA
+16,Estonia,EE,0.32,Chorwacja,0.317345756,Dania,0.513043466,NA,NA,NA,NA
+17,Litwa,LT,0.31,Rumunia,0.286047663,Luksemburg,0.429946159,NA,NA,NA,NA
+18,Bułgaria,BG,0.31,Portugalia,0.235857228,Łotwa,0.369157288,NA,NA,NA,NA
+19,Malta,MT,0.28,Belgia,0.225188816,Estonia,0.336965302,NA,NA,NA,NA
+20,Cypr,CY,0.27,Luksemburg,0.210800106,Belgia,0.3352473,NA,NA,NA,NA
+21,Austria,AT,0.26,Łotwa,0.192962222,Portugalia,0.332431691,NA,NA,NA,NA
+22,Irlandia,IE,0.23,Grecja,0.160385437,Rumunia,0.292732918,NA,NA,NA,NA
+23,Luksemburg,LU,0.18,Irlandia,0.112703774,Irlandia,0.283077414,NA,NA,NA,NA
+24,Chorwacja,HR,0.15,Estonia,0.110253671,Bułgaria,0.282328688,NA,NA,NA,NA
+25,Węgry,HU,0.13,Bułgaria,0.095351429,Grecja,0.18670762,NA,NA,NA,NA
+26,Dania,DK,0.1,Cypr,0.08520229,Litwa,0.139300148,NA,NA,NA,NA
+27,Niemcy,DE,-0.02,Malta,0.002643772,Cypr,0.098532969,NA,NA,NA,NA
+28,Francja,FR,-0.05,Litwa,0,Malta,0,NA,NA,NA,NA

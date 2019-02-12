@@ -1,0 +1,29 @@
+﻿metoda,Hellwiga,symbolh,zi,standaryzacja,"gi""",unitaryzacja,si,sr,od,p1,p2
+1,Włochy,IT,0.95,Niemcy,1.00,Szwecja,0.95,0.31,0.16,0.16,0.47
+2,Finlandia,FI,0.93,Szwecja,0.93,Finlandia,0.92,0.57,0.25,0.32,0.82
+3,Hiszpania,ES,0.87,Czechy,0.75,Czechy,0.77,0.6,0.24,0.37,0.84
+4,Francja,FR,0.73,Finlandia,0.84,Niemcy,1.00,NA,NA,NA,NA
+5,Szwecja,SE,0.61,Francja,0.86,Słowenia,0.71,NA,NA,NA,NA
+6,Polska,PL,0.52,Słowenia,0.63,Polska,0.75,NA,NA,NA,NA
+7,Słowacja,SK,0.40,Polska,0.70,Francja,0.87,NA,NA,NA,NA
+8,Węgry,HU,0.39,Wielka Brytania,0.54,Łotwa,0.62,NA,NA,NA,NA
+9,Czechy,CZ,0.38,Holandia,0.59,Austria,0.61,NA,NA,NA,NA
+10,Austria,AT,0.38,Hiszpania,0.46,Węgry,0.71,NA,NA,NA,NA
+11,Bułgaria,BG,0.35,Austria,0.62,Hiszpania,0.49,NA,NA,NA,NA
+12,Estonia,EE,0.35,Włochy,0.56,Chorwacja,0.74,NA,NA,NA,NA
+13,Łotwa,LV,0.35,Węgry,0.66,Wielka Brytania,0.53,NA,NA,NA,NA
+14,Rumunia,RO,0.35,Słowacja,0.48,Włochy,0.57,NA,NA,NA,NA
+15,Portugalia,PO,0.35,Łotwa,0.56,Estonia,0.65,NA,NA,NA,NA
+16,Litwa,LT,0.32,Chorwacja,0.67,Holandia,0.57,NA,NA,NA,NA
+17,Wielka Brytania,GB,0.31,Dania,0.59,Słowacja,0.53,NA,NA,NA,NA
+18,Chorwacja,HR,0.31,Luksemburg,0.25,Dania,0.61,NA,NA,NA,NA
+19,Słowenia,SI,0.31,Belgia,0.41,Bułgaria,0.24,NA,NA,NA,NA
+20,Grecja,GR,0.29,Estonia,0.55,Portugalia,0.40,NA,NA,NA,NA
+21,Dania,DK,0.28,Bułgaria,0.16,Litwa,0.29,NA,NA,NA,NA
+22,Holandia,NL,0.28,Portugalia,0.38,Rumunia,0.51,NA,NA,NA,NA
+23,Niemcy,DE,0.28,Rumunia,0.47,Luksemburg,0.27,NA,NA,NA,NA
+24,Belgia,BE,0.27,Litwa,0.23,Belgia,0.41,NA,NA,NA,NA
+25,Cypr,CY,0.27,Irlandia,0.10,Irlandia,0.16,NA,NA,NA,NA
+26,Irlandia,IE,0.26,Grecja,0.28,Grecja,0.32,NA,NA,NA,NA
+27,Malta,MT,0.26,Cypr,0.07,Cypr,0.07,NA,NA,NA,NA
+28,Luksemburg,LU,0.26,Malta,0.00,Malta,0.00,NA,NA,NA,NA
