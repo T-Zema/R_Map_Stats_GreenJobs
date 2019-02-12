@@ -16,7 +16,7 @@ Punkt1 = df$p1[1]
 Punkt2 = df$p2[1]
 
 # plotowanie
-plot(x, y, col=ifelse(x==0, "white", "blue"), xlab="Wartość syntetycznego miernika ekorozowju", ylab="Pozycja w rankingu ", pch=19, xaxt="n", yaxt="n")
+plot(x, y, col=ifelse(x==0, "white", "blue"), xlab="Wartość syntetycznego miernika ekorozowju", ylab="Pozycja w rankingu ", pch=19, xaxt="n", yaxt="n",cex= 2)
 
 
 
@@ -44,7 +44,7 @@ plot(x, y, col=ifelse(x==0, "white", "blue"), xlab="Wartość syntetycznego mier
   linear_model = lm(y~x,data=df)
   
   #abline(linear_model)
-  text(x[2:29],y[2:29], labels=df$symbolh, cex= 0.5, pos=2.5)
+  text(x[2:29],y[2:29], labels=df$symbolh, cex= 0.7, pos=2.5)
   
   summary(linear_model)
   summary(linear_model$coefficients)
