@@ -1,4 +1,5 @@
 # deklaracja biblioteki 
+library("sp")
 library("stringr")
 # hotfix do polskiej czcionki
 
@@ -14,6 +15,17 @@ y = lista
 Średnia = df$sr[1]
 Punkt1 = df$p1[1] 
 Punkt2 = df$p2[1]
+
+# Przydzielenie skrótów do państw
+Państwa <- df$wzorzec
+Państwa %<>%
+     gsub("Belgia", "BE", .) %>% gsub("Szwecja", "SE", .) %>% gsub("Bułgaria", "BG", .) %>% gsub("Chorwacja", "HR", .) %>% 
+     gsub("Austria", "AT", .) %>% gsub("Cypr", "CY", .) %>% gsub("Czechy", "CZ", .) %>% gsub("Dania", "DK", .) %>%
+     gsub("Słowacja", "SK", .) %>% gsub("Estonia", "EE", .) %>% gsub("Finlandia", "FI", .) %>% gsub("Francja", "FR", .) %>%
+     gsub("Grecja", "GR", .) %>% gsub("Hiszpania", "ES", .) %>% gsub("Holandia", "NL", .) %>% gsub("Irlandia", "IE", .) %>%
+     gsub("Litwa", "LT", .) %>% gsub("Luksemburg", "LU", .) %>% gsub("Łotwa", "LV", .) %>% gsub("Malta", "MT", .) %>%
+     gsub("Niemcy", "DE", .) %>% gsub("Polska", "PL", .) %>% gsub("Portugalia", "PO", .) %>% gsub("Rumunia", "RO", .) %>%
+     gsub("Słowenia", "SI", .) %>% gsub("Węgry", "HU", .) %>% gsub("Wielka Brytania", "GB", .) %>% gsub("Włochy", "IT", .)
 
 # plotowanie
 plot(x, y, col=ifelse(x==0, "white", "blue"), xlab="Wartość syntetycznego miernika ekorozowju", ylab="Pozycja w rankingu ", pch=19, xaxt="n", yaxt="n",cex= 2)
@@ -44,7 +56,7 @@ points(x2,y, col=ifelse(x==0, "white", "red"),cex= 2)
   linear_model = lm(y~x,data=df)
   
   #abline(linear_model)
-  text(x[2:29]-(0.05),y[2:29], labels=df$symbolh, cex= 0.7, pos=4)
+  text(Państwa[2:29]-(0.05),y[2:29], labels=df$symbolh, cex= 0.7, pos=4)
   text(x2[2:29]*1.01,y[2:29], labels=df2$symbolh, cex= 0.7,  pos=4, col = "red")
   summary(linear_model)
   summary(linear_model$coefficients)
