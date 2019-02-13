@@ -57,7 +57,7 @@ points(x2,y, col=ifelse(x==0, "white", "red"),cex= 2)
   linear_model = lm(y~x,data=df)
   
   #abline(linear_model)
-  text(x[2:29]-(0.05),y[2:29], labels=Państwa, cex= 0.7, pos=4)
+  text(x[2:29],y[2:29], labels=Państwa, cex= 0.7, pos=3)
   text(x2[2:29],y[2:29], labels=Państwa, cex= 0.7,  pos=3, col = "red")
   summary(linear_model)
   summary(linear_model$coefficients)

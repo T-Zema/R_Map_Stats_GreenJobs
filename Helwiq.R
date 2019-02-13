@@ -1,10 +1,15 @@
-# deklaracja biblioteki "sp"
-library("sp")
+
+
+# Bibioteki Cairo, devtools, dplyr potrzebne
+
+
 # hotfix do polskiej czcionki
+library(dplyr)
 encoding = "utf-8"
 Sys.setlocale("LC_CTYPE", "polish")
 # Czytanie pliku
-df <- read.csv(".\\Arkusze\\Rankingi csv\\Doktorat_obliczenia_EU-28_2006.csv", header = TRUE)
+plik = "./Arkusze/Rankingi csv/Doktorat_obliczenia_EU-28_2016.csv"
+df <- read.csv(plik, header = TRUE)
 
 # zmienne pomocnicze
 lista <- 0:28
@@ -16,6 +21,12 @@ Punkt1 = df$p1[1]
 Punkt2 = df$p2[1]
 
 # plotowanie
+regexy <- gsub(".csv", "", plik) %>% gsub("./Arkusze/Rankingi/", "", .)
+
+png(filename = paste0("./Wyniki/Rankingi/", regexy, ".png"),
+    width = 1000, height = 770, units = "px")
+
+#cairo_ps(paste0(regexy, ".eps"), width = 10, height = 7.7)
 plot(x, y, col=ifelse(x==0, "white", "blue"), xlab="Wartość syntetycznego miernika ekorozowju", ylab="Pozycja w rankingu ", pch=19, xaxt="n", yaxt="n",cex= 2)
 
 
@@ -44,8 +55,9 @@ plot(x, y, col=ifelse(x==0, "white", "blue"), xlab="Wartość syntetycznego mier
   linear_model = lm(y~x,data=df)
   
   #abline(linear_model)
-  text(x[2:29],y[2:29], labels=df$symbolh, cex= 0.7, pos=2.5)
+  text(x[2:29],y[2:29], labels=df$symbolh, cex= 0.8, pos=2.5)
   
   summary(linear_model)
   summary(linear_model$coefficients)
   
+  dev.off()
