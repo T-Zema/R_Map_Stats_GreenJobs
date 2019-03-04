@@ -63,43 +63,43 @@ png(filename = paste0("./Wyniki/Wzorzec_vs_Biomasa_vs_Patenty/", regexy, ".png")
 
 
 # plotowanie
-plot(x, y, col=ifelse(x==0, "white", "black"), xlab="Wartość syntetycznego miernika ekorozowju", ylab="Pozycja w rankingu ", pch=0, xaxt="n", yaxt="n",cex= 2)
+plot(y, x, col=ifelse(x==0, "white", "black"), xlab="Ranking position", ylab="Artificial development indicator",
+     pch=0, xaxt="n", yaxt="n",cex= 2, xlim = c(1,28),ylim = c(0,1), par(mar=c(35,35,0,0)))
 #plot(x2, y, col=ifelse(x2==0, "white", "red"), xlab="Wartość syntetycznego miernika ekorozowju", ylab="Pozycja w rankingu ", pch=19, xaxt="n", yaxt="n")
-points(Biomasa,y, col=ifelse(x==0, "white", "black"),cex= 2,  pch=1)
-points(Patenty,y, col=ifelse(x==0, "white", "black"),cex= 2, pch=2)
+points(y,Biomasa, col=ifelse(x==0, "white", "black"),cex= 2.5,  pch=1)
+points(y,Patenty, col=ifelse(x==0, "white", "black"),cex= 2, pch=2)
 
-  # zmienna pomocnicza
-  axis_seqx <- seq(0, 1, length.out = 11)
-  axis_seqy <- seq(0, 28, length.out = 29)
-  
-  # zmiana osia
-  axis(side=1,at=axis_seqx,lwd=1)
-  axis(side=2,at=axis_seqy,lwd=1)
-  # linie 
-  abline(v = Średnia, col = "gray60", lwd = 2, lty = 2)
-  abline(v = Punkt1, col = "gray60", lwd = 2, lty = 2)
-  abline(v = Punkt2, col = "gray60", lwd = 2, lty = 2)
-  
-  # Znaczniki dla linii
-  mtext(expression(bar("Z") -"S"[d]), line = 0, at = Punkt1)
-  mtext(expression(bar("Z") + "S"[d]), line = 0, at = Punkt2)
-  mtext(expression(bar("Z")), line = 0.2, at = Średnia)
-  
-  # wygładzenie pomocnicze
-  #scatter.smooth(x[1:29], y[1:29])
-  # regresja liniowa
-  
-  legend("bottomleft", legend=c("Patenty", "Mediana", "Biomasa"),
-         col=c("black", "black", "black"),bty = "n", pch = c(2,0,1), cex=0.9)
-  
-  linear_model = lm(y~x,data=df)
-  
-  #abline(linear_model)
-  text(x[2:29],y[2:29], labels=Państwa, cex= 0.7, pos=3,col = "black")
+# zmienna pomocnicza
+axis_seqx <- seq(0, 28, length.out = 29)
+axis_seqy <- seq(0, 1, length.out = 11)
 
-  text(Biomasa[2:29],y[2:29], labels=Państwa_Biomasa, cex= 0.7,  pos=ifelse(Biomasa<0.017933208, 2, 3), col = "black")
-  text(Patenty[2:29],y[2:29], labels=Państwa_Patenty, cex= 0.7,  pos=3, col = "black")
- 
-  
-  dev.off()
-  
+# zmiana osia
+axis(side=1,at=axis_seqx,lwd=1)
+axis(side=2,at=axis_seqy,lwd=1)
+# linie 
+abline(h = Średnia, col = "gray60", lwd = 2, lty = 2)
+abline(h = Punkt1, col = "gray60", lwd = 2, lty = 2)
+abline(h = Punkt2, col = "gray60", lwd = 2, lty = 2)
+
+# Znaczniki dla linii
+mtext(expression(bar("Z") -"S"[d]), line = 0.5, at = Punkt1, side = 4, las = 1)
+mtext(expression(bar("Z") + "S"[d]), line = 0.5, at = Punkt2, side = 4, las = 1)
+mtext(expression(bar("Z")), line = 0.5, at = Średnia, side = 4, las = 1)
+
+# wygładzenie pomocnicze
+#scatter.smooth(x[1:29], y[1:29])
+# regresja liniowa
+
+legend("bottomleft", legend=c("Patenty", "Mediana", "Biomasa"),
+       col=c("black", "black", "black"),bty = "n", pch = c(2,0,1), cex=0.9)
+
+#linear_model = lm(y~x,data=df)
+
+#abline(linear_model)
+text(y[2:29],x[2:29], labels=Państwa, cex= 0.8, pos=3,col = "black")
+
+text(y[2:29],Biomasa[2:29], labels=Państwa_Biomasa, cex= 0.8,  pos=ifelse(y==4, 2, 3), col = "black") # pos=ifelse(Biomasa<0.017933208, 2, 3)
+text(y[2:29],Patenty[2:29], labels=Państwa_Patenty, cex= 0.8,  pos=4, col = "black")
+
+
+dev.off()
